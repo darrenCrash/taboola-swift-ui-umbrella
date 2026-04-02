@@ -9,7 +9,11 @@ let package = Package(
         .library(
             name: "TaboolaSDK-SwiftUI-Umbrella",
             targets: ["TaboolaSDK-SwiftUI-Umbrella"]
-        )
+        ),
+        .library(
+              name: "TaboolaSDK",
+              targets: ["TaboolaSDK"]
+          )
     ],
     targets: [
         .target(
